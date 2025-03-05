@@ -10,8 +10,6 @@
     {
         public bool friss { get; set; } = friss;
 
-        public static new IReadOnlyList<TomegMertekegyseg> Mertekegysegek => Aru<TomegMertekegyseg>.Mertekegysegek;
-
         public override string ToString() => base.ToString() + $", {(friss ? "Friss" : "Nem friss")}";
     }
 }

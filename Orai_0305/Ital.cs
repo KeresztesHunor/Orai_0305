@@ -10,8 +10,6 @@
     {
         public float gyumolcsTartalom { get; } = gyumolcsTartalom;
 
-        public static new IReadOnlyList<FolyadekMertekegyseg> Mertekegysegek => Aru<FolyadekMertekegyseg>.Mertekegysegek;
-
         public override string ToString() => base.ToString() + $", Gyümölcstartalom: {gyumolcsTartalom * 100}%";
     }
 }
